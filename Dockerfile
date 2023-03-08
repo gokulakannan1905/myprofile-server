@@ -1,6 +1,6 @@
 FROM rust:1.67
 WORKDIR /app
-COPY . .
+COPY . . 
 RUN cargo build --release
 CMD [ "cargo", "run" ]
 EXPOSE 80

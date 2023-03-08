@@ -145,14 +145,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "htop-browser"
-version = "0.1.0"
-dependencies = [
- "axum",
- "tokio",
-]
-
-[[package]]
 name = "http"
 version = "0.2.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -274,6 +266,14 @@ dependencies = [
  "log",
  "wasi",
  "windows-sys",
+]
+
+[[package]]
+name = "myprofile-server"
+version = "0.1.0"
+dependencies = [
+ "axum",
+ "tokio",
 ]
 
 [[package]]
